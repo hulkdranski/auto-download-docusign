@@ -1,13 +1,11 @@
 #Imports
-import time
+import time, customtkinter, threading
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.actions.wheel_input import ScrollOrigin
-import customtkinter
-import threading
 from tkinter import filedialog
 from PIL import Image
 from selenium.webdriver.support.wait import WebDriverWait
@@ -193,14 +191,12 @@ if __name__ == '__main__':
     driver.implicitly_wait(15)
 
     login = customtkinter.CTk()
-    login.title('DOCUSIGN MSP')
+    login.title('DOCUSIGN DONWLOADER')
     login.geometry('300x180')
     login.config(bg='#ffffff')
     login.iconbitmap(r'T:\Robo Docusign\1\imgs\logo.ico')
     login.resizable(False, False)
-    biduzin = customtkinter.CTkImage(Image.open(r"T:\Robo Docusign\1\imgs\logo.png"), size=(200, 80))
 
-    logo1 = customtkinter.CTkLabel(master=login, image=biduzin, bg_color='#ffffff', text='')
     button_shadow = customtkinter.CTkButton(master=login, fg_color='#A3A3A3', text='',
                                             corner_radius=5, border_color='#000000', border_width=0,
                                             hover_color='#A3A3A3', width=210)
@@ -213,8 +209,7 @@ if __name__ == '__main__':
                                       text='Parar', font=("Calibri", 14), corner_radius=5,
                                       border_color='#000000', border_width=1, width=115, command=stop)
 
-    button_shadow.place(x=40, y=99)
-    button1.place(x=37, y=97)
-    button2.place(x=87, y=140)
-    logo1.grid(row=0, column=0, padx=(40, 0), pady=(10, 0))
+    button_shadow.place(x=40, y=69)
+    button1.place(x=37, y=67)
+    button2.place(x=87, y=110)
     login.mainloop()
