@@ -198,7 +198,7 @@ if __name__ == '__main__':
     login.config(bg='#ffffff')
     login.iconbitmap(r'T:\Robo Docusign\1\imgs\logo.ico')
     login.resizable(False, False)
-    biduzin = customtkinter.CTkImage(Image.open(r"T:\Robo Docusign\1\imgs\logomsp.png"), size=(200, 80))
+    biduzin = customtkinter.CTkImage(Image.open(r"T:\Robo Docusign\1\imgs\logo.png"), size=(200, 80))
 
     logo1 = customtkinter.CTkLabel(master=login, image=biduzin, bg_color='#ffffff', text='')
     button_shadow = customtkinter.CTkButton(master=login, fg_color='#A3A3A3', text='',
