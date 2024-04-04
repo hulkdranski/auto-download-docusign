@@ -1,8 +1,4 @@
 # auto-download-docusign
-This is a project where you can downloaded automatically multiples documents from docusign
-
-
-# auto-download-docusign
 <div class="markdown-body entry-content container-lg p-3" itemprop="text">
 	<p class="text-center" align="center">
 		<img alt="Star Wars Logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/DocuSign_Logo.svg/1280px-DocuSign_Logo.svg.png" />
