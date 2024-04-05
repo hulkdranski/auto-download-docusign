@@ -7,7 +7,7 @@
 		Descripction
 	</h2>
 	<p>
-		This is a project where you can downloaded automatically multiples documents from docusign
+		The Docusign website don't let us downloaded multiple documents, so I made this App to solve this problem. It downloaded automatically all documents in a page using Selenium.
 	</p>
 	<h2 class="f4 my-3">
 		How to use?
@@ -17,4 +17,7 @@
     Don't forget that you need to have Python installed on your computer.
     Before trying to run, make sure you have the chromedriver downloaded on your machine and that the path is specified on row 186. Also specify a path to an icon on row 197, with the .ico extension.
 	</p>
+	<h3>
+		Step by step
+	</h3>
 </div>
