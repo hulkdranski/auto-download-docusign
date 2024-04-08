@@ -16,7 +16,7 @@
 		You can use this App by downloading the files and running main.py in an IDE that supports Python.
     Don't forget that you need to have Python installed on your computer.
     Before trying to run, make sure you have the chromedriver downloaded on your machine and that the path is specified on row 186. Also specify a path to an icon on row 197, with the .ico extension.
-		![Show rows](img/exemplo.png)
+		![Show rows](imgs/row186-197.png)
 	</p>
 	<h3>
 		Step by step
