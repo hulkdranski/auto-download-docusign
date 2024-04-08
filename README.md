@@ -20,4 +20,8 @@
 	<h3>
 		Step by step
 	</h3>
+	<p>
+		When you run this code, a Windows Explorer window will appear, where you will have to select the path where the downloads will go.
+	Then a page will open for you to log into docusign, after logging in, select the folder that has the documents you want to download and click on the "Download all documents" button.
+	</p>
 </div>
